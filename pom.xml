@@ -28,20 +28,20 @@
 	<distributionManagement>
 		<repository>
 			<id>central</id>
-			<name>libs-release</name>
-			<url>http://10.7.157.204:8081/artifactory/libs-release-demo</url>
+			<name>fis-demo1-release</name>
+			<url>http://10.7.143.71:8082/artifactory/fis-demo1-release/</url>
 		</repository>
 		<snapshotRepository>
 			<id>snapshot</id>
-			<name>libs-snapshot</name>
-			<url>http://10.7.157.204:8081/artifactory/libs-snapshot-demo</url>
+			<name>fis-demo1-snapshot</name>
+			<url>http://10.7.143.71:8082/artifactory/fis-demo1-snapshot/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
 	<scm>
-		<connection>scm:git:git@github.com:satyacicd/fisapi-demo.git</connection>
-		<developerConnection>scm:git:git@github.com:satyacicd/fisapi-demo.git</developerConnection>
-		<url>git@github.com:satyacicd/fisapi-demo.git</url>
+		<connection>scm:git:git@github.com:ishwargit/CICD-Demo.git</connection>
+		<developerConnection>scm:git:git@github.com:ishwargit/CICD-Demo.git</developerConnection>
+		<url>git@github.com:ishwargit/CICD-Demo.git</url>
 		<tag>HEAD</tag>
 	</scm>
 
